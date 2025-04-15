@@ -1,0 +1,10 @@
+frontend/client/node_modules
+frontend/client/build
+frontend/client/.env
+frontend/client/.DS_Store
+frontend/client/npm-debug.log
+frontend/client/yarn-error.log
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.DS_Store
