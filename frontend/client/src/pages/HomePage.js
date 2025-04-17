@@ -19,7 +19,7 @@ function HomePage() {
             <li>Carpet Installation</li>
           </ul>
         </section>
-        {/* ... more sections */}
+ 
       </main>
     </div>
   );

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Result</title>
+</head>
+<body>
+    <h1>Upload Result</h1>
+    {% if message %}
+        <p style="color: green;">{{ message }}</p>
+        {% if filename %}
+            <img src="/uploads/{{ filename }}" alt="Uploaded" style="max-width: 300px;">
+        {% endif %}
+    {% elif error %}
+        <p style="color: red;">Error: {{ error }}</p>
+    {% endif %}
+    <p><a href="/upload-form">Upload Another Image</a></p>
+</body>
+</html>
